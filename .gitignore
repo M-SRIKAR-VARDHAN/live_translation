@@ -1,0 +1,60 @@
+# =================================================================
+# Python Virtual Environment
+# =================================================================
+# Ignore the entire virtual environment folder. 
+# This is the most important rule for you.
+/venv/
+
+
+# =================================================================
+# Project-Specific: Models
+# =================================================================
+# Ignore the models folder. 
+# These are large binary files that don't belong in Git.
+/models/
+
+
+# =================================================================
+# Python Cache & Artifacts
+# =================================================================
+# Ignore all Python cache folders (like the one you have)
+__pycache__/
+*.pyc
+
+# Ignore build/dist files
+/build/
+/dist/
+*.egg-info/
+
+
+# =================================================================
+# IDE / Editor Files
+# =================================================================
+# VS Code settings
+.vscode/
+
+# PyCharm, Spyder, etc.
+.idea/
+.spyderproject
+.ropeproject
+
+
+# =================================================================
+# Local Test / Media Files
+# =================================================================
+# Ignore any .mp4, .wav, or .json files that are for testing
+# but aren't part of the core project.
+# (This will ignore '1.mp4' and 'test_audio.wav')
+*.mp4
+*.wav
+
+
+# UN-comment the line below if you want to KEEP 'model_paths.json'
+# !model_paths.json
+
+
+# =================================================================
+# OS / System Files
+# =================================================================
+.DS_Store
+Thumbs.db
