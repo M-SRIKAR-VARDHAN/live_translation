@@ -1,0 +1,6 @@
+{
+  "vad_model_path": "./models/silero_vad",
+  "asr_model_path": "./models/ai4bharat_indic-conformer-600m-multilingual",
+  "nmt_model_path": "D:/real_time_live_translation/models/indictrans2-indic-en-dist-200M",
+  "source_language": "te"
+}

@@ -1,0 +1,8 @@
+numpy
+torch
+pyaudio
+soundfile
+torchaudio
+transformers
+# This is the crucial one for NMT
+IndicTransToolkit @ git+https://github.com/VarunGumma/IndicTransToolkit.git
